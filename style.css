@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: auto;
+    height: 115px;
+    background-color: #3412D6;
+}
+.milieux{
+    width: auto;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.skills{
+    width: 500vh;
+    height: 400px;
+    background-image: linear-gradient(to right, #1720e7, #0027b7, #002385, #001a54, #070d25);
+}
+.projet{
+    width: 500vh;
+    height: 400px;
+    background-color: #071FED;
+}
+.contact{
+    width: auto;
+    height: 200px;
+    background-color: #0712AB;
+}
+.imgHtml{
+    width: 25vh;
+}
+.Sk{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.imgCss{
+    width: 25vh;
+}
+.imgJs{
+    width: 25vh;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgAstronaut{
+    width: 25vh;
+}
+.projet{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.Pj{
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: rgb(255, 145, 0);
+}
+.lune{
+    width: 250px;
+    height: 250px;
+    background-image: url(/assets/lune.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chimaev{
+    width: 250px;
+    height: 250px;
+    background-image: url(/assets/chimaev.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imgSkills{
+    display: flex;
+}
