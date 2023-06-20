@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  .projet {
+    margin-bottom: 20px;
+  }
+  
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+  }
+.img{
+    height: 50px;
+}
+.lune{
+    height: 200px;
+}  
+.channel{
+    margin-top: 10px;
+    background-color: #212336;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.switch {
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    position: relative;
+  }
+  
+  .flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.3s;
+    box-shadow: 
+      inset 4px 4px 4px rgb(255,255,255),
+      inset -4px -4px 4px rgb(195 193 198 / 90%);
+  }
+  
+  .dark {
+    background-color: rgb(57, 57, 57);
+    transition: 0.3s;
+  }
+  
+  .moon {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+  }
+  
+  .dark .flicker {
+    transform: translateX(40px);
+  }
+  
+  .dark > * {
+   color:rgb(255, 255, 255);
+  }
+.imgGit{
+    height: 50px;
+}
+.imgYtb{
+    height: 50px; 
+}

@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Adam Abid</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo.png">
+  <meta charset="UTF-8">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="icon" href="logo.png">
 </head>
-<header>
-    <div class="switch">
-      <div class="flicker"></div>
-      <div class="moon"></div>
-    </div>
-  </header>
 <body>
-    <div>
-        Adam
-                <p>Abid</p>
-                <p>Alias Error</p>
-                <center>
-                    Dev Front-end
-                </center>
+  <header>
+    <h1>Adam Abid</h1>
+    <h4>Alias Error</h4>
+    <img src="logo.png" alt="logo">
+    <nav>
+      <ul>
+        <li><a href="#accueil" class="channel">Accueil</a></li>
+        <li><a href="#competences" class="channel">Compétences</a></li>
+        <li><a href="#projets" class="channel">Projets</a></li>
+        <li><a href="#contact" class="channel">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil">
+    <h2>Bienvenue sur mon portfolio !</h2>
+    <p>Bienvenue a tous sur mon portfolio qui reunis tous mes projets et toutes mes competences que j'ai reussi a acquérir depuis que j'ai commencé le developpement de site internet.</p>
+    <br>Je me presente donc. Je m'appele Adam Abid et je suis né a boulogne sur mer en 2007 plus précisement le 20 octobre 2007 et je suis developpeur web debutant.
+</section>
+
+  <section id="competences">
+    <h2>Voici les differents language avec lesquels je code</h2>
+    <ul>
+      <br><li>Html</li>
+      <img src="html.png" alt="html" class="img">
+      <br><li>Css</li>
+      <img src="css-3.png" alt="css" class="img">
+      <br><li>Javascript</li>
+      <img src="js.png" alt="javascript" class="img">
+    </ul>
+  </section>
+
+  <section id="projets">
+    <h2>Mes projets</h2>
+    <div class="projet">
+      <h3>Projet 1</h3>
+      <p>Je suis aller sur la lune en 2008 un an apres ma naissance</p>
+      <img src="lune.jpg" alt="lune" class="lune">
     </div>
-    <div class="logo">
-        <img src="runko.gif" alt="logo">
+    <div class="projet">
+      <h3>Projet 2</h3>
+      <p>J'ai coacher Khamzat Chimaev lors de son derniers combat</p>
+      <img src="chimaev.jpg" alt="chimaev">    
     </div>
-    <div class="milieux">
-        <div class="skills">
-            <p class="Sk">Skills :</p>
-            <div class="imgSkills">
-                <img src="/assets/html.png" alt="html" class="imgHtml">
-                <img src="/assets/css-3.png" alt="css" class="imgCss">
-                <img src="/assets/js.png" alt="javascript" class="imgJs">
-            </div>
-        </div>
-        <div class="skills">
-            <p class="Sk">Projet :</p>
-            <div class="imgSkills">
-                <div class="lune"></div>
-                <div class="chimaev"></div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        Formulaire de contact
-    </div>
-    <div align="center">
-        <a href="/formulaire de contact/index.html" class="contactme">bdadebsm@gmail.com</a>
-    </div>
-    <script src="index.js"></script>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <a href="https://github.com/ErrorGF"><img src="github.png" alt="github" class="imgGit"></a>
+    <a href="https://www.youtube.com/@errorenbrr"><img src="youtube.png" alt="youtube" class="imgYtb"></a>
+  </section>
+
+  <footer>
+  </footer>
 </body>
 </html>
