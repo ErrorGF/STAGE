@@ -23,7 +23,10 @@
   }
   
   header {
-    background-color: #f2f2f2;
+    background-image: url(error\ violet.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
   }
   
@@ -129,4 +132,10 @@
 }
 .imgYtb{
     height: 50px; 
+}
+.banniere{
+  height: 20vh;
+}
+.color{
+  color: rgb(16, 5, 54);
 }
