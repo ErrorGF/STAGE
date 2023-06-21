@@ -8,6 +8,23 @@
   <link rel="icon" href="logo.png">
 </head>
 <body>
+  <div id="toggle">
+    <i class="indicator"></i>
+</div>
+
+<script>
+
+    const body = document.querySelector('body');
+    const toggle = document.getElementById('toggle');
+
+    toggle.onclick = function () {
+        toggle.classList.toggle('active');
+        body.classList.toggle('active');
+    }
+
+</script>
+
+  <!-- header -->
   <header>
     <h1 class="color">Adam Abid</h1>
     <h4 class="color">Alias Error</h4>
@@ -20,26 +37,45 @@
         <li><a href="#contact" class="channel">Contact</a></li>
       </ul>
     </nav>
-  </header>
 
+<div role="navigation">
+  <div class="burgerToggle">
+    <div class="checkbox">
+      <input type="checkbox" />
+  
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="burger">
+      <a href="#acceuil"><li>Acceuil</li></a>
+      <a href="#competences"><li>Compétences</li></a>
+      <a href="#projets"><li>Projets</li></a>
+      <a href="#contact"><li>Contact</li></a>
+    </ul>
+  </div>
+</div>
+  </header>
+ <!-- Accueil -->
   <section id="accueil">
     <h2>Bienvenue sur mon portfolio !</h2>
     <p>Bienvenue a tous sur mon portfolio qui reunis tous mes projets et toutes mes competences que j'ai reussi a acquérir depuis que j'ai commencé le developpement de site internet.</p>
-    <br>Je me presente donc. Je m'appele Adam Abid et je suis né a boulogne sur mer en 2007 plus précisement le 20 octobre 2007 et je suis developpeur web debutant.
+    <br>Je m'appele Adam Abid et je suis né a boulogne sur mer en 2007 plus précisement le 20 octobre 2007 et je suis developpeur web debutant.
 </section>
-
+ <!-- Competences -->
   <section id="competences">
     <h2>Voici les differents language avec lesquels je code</h2>
     <ul>
-      <br><li>Html</li>
+      <br><p>Html</p>
       <img src="html.png" alt="html" class="img">
-      <br><li>Css</li>
+      <br><p>Css</p>
       <img src="css-3.png" alt="css" class="img">
-      <br><li>Javascript</li>
+      <br><p>Javascript</p>
       <img src="js.png" alt="javascript" class="img">
     </ul>
   </section>
-
+ <!-- Projets -->
   <section id="projets">
     <h2>Mes projets</h2>
     <div class="projet">
@@ -53,11 +89,12 @@
       <img src="chimaev.jpg" alt="chimaev">    
     </div>
   </section>
-
+ <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
-    <a href="https://github.com/ErrorGF"><img src="github.png" alt="github" class="imgGit"></a>
-    <a href="https://www.youtube.com/@errorenbrr"><img src="youtube.png" alt="youtube" class="imgYtb"></a>
+    <a href="https://github.com/ErrorGF" target="_blank"><img src="github.png" alt="github" class="imgGit"></a>
+    <a href="https://www.youtube.com/@errorenbrr" target="_blank"><img src="youtube.png" alt="youtube" class="imgYtb"></a>
+    <a href="mailto:bdadebsm@gmail.com" target="_blank"><img src="enveloppe-de-courrier-electronique.png" alt="mail" class="imgMail"></a>
   </section>
 
   <footer>
