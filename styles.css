@@ -127,9 +127,8 @@ body.active {
 }
 
 #toggle {
-  position: absolute;
-  margin-left: 1250px;
-  margin-top: 175px;
+  right: 0px; 
+  position: fixed;
   display: block;
   width: 85px;
   height: 30px;
@@ -147,6 +146,7 @@ body.active {
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
       inset 0 4px 4px rgba(255, 255, 255, 0.2),
       inset 0 4px 4px rgba(255, 255, 255, 0.2);
+
 }
 
 #toggle .indicator {
