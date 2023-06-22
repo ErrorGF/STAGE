@@ -67,7 +67,8 @@
     padding: 20px;
   }
 .img{
-    height: 50px;
+    display: flex;
+    height: 150px;
     transition: transform 0.2s ease;
 }
 .img:hover{
@@ -124,13 +125,14 @@
 
 body.active {
   background: #f8f8f8;
+  color: #222;
 }
 
 #toggle {
   right: 0px; 
   position: fixed;
   display: block;
-  width: 85px;
+  width: 82px;
   height: 30px;
   border-radius: 100px;
   background: #222;
@@ -142,7 +144,7 @@ body.active {
 }
 
 #toggle.active {
-  background: #fff;
+  background: #ff0000;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5),
       inset 0 4px 4px rgba(255, 255, 255, 0.2),
       inset 0 4px 4px rgba(255, 255, 255, 0.2);
@@ -202,6 +204,9 @@ html{
     display: none;
   }
   .checkbox{
+    display: none;
+  }
+  .delete{
     display: none;
   }
 }
